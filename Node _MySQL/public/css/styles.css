@@ -6,7 +6,8 @@ h1 {
     text-align: center;
 }
 
-.form {
+.form,
+.books-container {
     text-align: center;
     width: 450px;
     margin: 0 auto;
@@ -28,4 +29,16 @@ h1 {
 
 .form-control input {
     padding: 5px;
+}
+
+/*books*/
+
+.books-container div {
+    border-bottom: solid 1px #CCC;
+    padding: 5px;
+    margin: 5px;
+}
+
+.bold {
+    font-weight: bold;
 }
